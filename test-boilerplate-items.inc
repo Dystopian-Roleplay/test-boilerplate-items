@@ -48,7 +48,9 @@ hook OnScriptInit() {
 	item_Hammer			= DefineItemType("Hammer",				"Hammer",			18635,	2,	270.0, 0.0, 0.0,		0.01,	0.000000, -0.008230, 0.000000, 6.428617, 0.000000, 0.000000, .maxhitpoints = 2);
 	item_Shield			= DefineItemType("Shield",				"Shield",			18637,	8,	0.0, 0.0, 0.0,			0.0,	-0.262389, 0.016478, -0.151046, 103.597534, 6.474381, 38.321765, .maxhitpoints = 8);
 	item_HelmArmy		= DefineItemType("Army Helmet",			"HelmArmy",			19106,	2,	345.0, 270.0, 0.0,		0.045,	0.184999, -0.007999, 0.046999, 94.199989, 22.700027, 4.799994, .maxhitpoints = 2);
+}
 
+hook OnGameModeInit() {
 	CreateItem(item_Medkit, 302.0, 1800.0, 16.8);
 	CreateItem(item_Sign, 302.0, 1801.0, 16.8);
 	CreateItem(item_Screwdriver, 302.0, 1802.0, 16.8);
