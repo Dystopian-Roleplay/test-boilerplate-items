@@ -49,20 +49,20 @@ hook OnScriptInit() {
 	item_Shield			= DefineItemType("Shield",				"Shield",			18637,	8,	0.0, 0.0, 0.0,			0.0,	-0.262389, 0.016478, -0.151046, 103.597534, 6.474381, 38.321765, .maxhitpoints = 8);
 	item_HelmArmy		= DefineItemType("Army Helmet",			"HelmArmy",			19106,	2,	345.0, 270.0, 0.0,		0.045,	0.184999, -0.007999, 0.046999, 94.199989, 22.700027, 4.799994, .maxhitpoints = 2);
 
-	CreateItem(item_Medkit, 302.0, 1800.0, 18.0);
-	CreateItem(item_Sign, 302.0, 1801.0, 18.0);
-	CreateItem(item_Screwdriver, 302.0, 1802.0, 18.0);
-	CreateItem(item_MobilePhone, 302.0, 1803.0, 18.0);
-	CreateItem(item_Bottle, 302.0, 1804.0, 18.0);
-	CreateItem(item_Backpack, 302.0, 1805.0, 18.0);
-	CreateItem(item_Bucket, 302.0, 1806.0, 18.0);
-	CreateItem(item_GasMask, 302.0, 1807.0, 18.0);
-	CreateItem(item_Bandage, 302.0, 1808.0, 18.0);
-	CreateItem(item_Wrench, 302.0, 1809.0, 18.0);
-	CreateItem(item_Crowbar, 302.0, 1810.0, 18.0);
-	CreateItem(item_Hammer, 302.0, 1811.0, 18.0);
-	CreateItem(item_Shield, 302.0, 1812.0, 18.0);
-	CreateItem(item_HelmArmy, 302.0, 1813.0, 18.0);
+	CreateItem(item_Medkit, 302.0, 1800.0, 16.8);
+	CreateItem(item_Sign, 302.0, 1801.0, 16.8);
+	CreateItem(item_Screwdriver, 302.0, 1802.0, 16.8);
+	CreateItem(item_MobilePhone, 302.0, 1803.0, 16.8);
+	CreateItem(item_Bottle, 302.0, 1804.0, 16.8);
+	CreateItem(item_Backpack, 302.0, 1805.0, 16.8);
+	CreateItem(item_Bucket, 302.0, 1806.0, 16.8);
+	CreateItem(item_GasMask, 302.0, 1807.0, 16.8);
+	CreateItem(item_Bandage, 302.0, 1808.0, 16.8);
+	CreateItem(item_Wrench, 302.0, 1809.0, 16.8);
+	CreateItem(item_Crowbar, 302.0, 1810.0, 16.8);
+	CreateItem(item_Hammer, 302.0, 1811.0, 16.8);
+	CreateItem(item_Shield, 302.0, 1812.0, 16.8);
+	CreateItem(item_HelmArmy, 302.0, 1813.0, 16.8);
 
 	return 1;
 }
