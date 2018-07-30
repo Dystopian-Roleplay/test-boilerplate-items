@@ -5,9 +5,9 @@
 	"output": "test.amx",
 	"dependencies": [
 		"sampctl/samp-stdlib",
-		"Dystopian-Roleplay/test-boilerplate",
+		"Dystopian-Roleplay/test-boilerplate@2.0.0",
 		"pawn-lang/YSI-Includes",
-		"Dystopian-Roleplay/item",
+		"Dystopian-Roleplay/item@2.0.0",
 		"Southclaws/samp-logger"
 	]
 }
